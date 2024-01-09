@@ -1,8 +1,8 @@
 import React from "react";
-import './LayoutHeader.css'
+import styles from './LayoutHeader.module.scss'
 
 export const LayoutHeader = () => {
     return (
-        <div className="Header">Header</div>
+        <div className={styles.Header}>Header</div>
     )
 }
