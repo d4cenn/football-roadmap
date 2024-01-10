@@ -1,4 +1,25 @@
 .Header {
+    display: flex;
+    justify-content: center;
     width: 100%;
+    height: 100px;
+    background-color: #040707;
+}
+
+.HeaderContent {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Logo {
+    height: 100px;
+}
+
+.Title {
+    -webkit-line-clamp: 2;
     text-align: center;
+    max-width: 120px;
+    font-size: 30px;
 }

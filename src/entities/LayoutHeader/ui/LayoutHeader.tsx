@@ -1,8 +1,13 @@
-import React from "react";
 import styles from './LayoutHeader.module.scss'
+import logo from './logo-rpl.png'
 
 export const LayoutHeader = () => {
     return (
-        <div className={styles.Header}>Header</div>
+        <div className={styles.Header}>
+            <a href="/" className={styles.HeaderContent}>
+                <img className={styles.Logo} src={logo} alt="logo" />
+                <div className={styles.Title}>FOOTBALL HISTORY</div>
+            </a>
+        </div>
     )
 }
