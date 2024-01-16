@@ -5,6 +5,10 @@ body {
   font-family: 'Oswald';
 }
 
+#root {
+  height: 100vh;
+}
+
 /* cyrillic */
 @font-face {
   font-family: 'Oswald';

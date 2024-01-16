@@ -1,5 +1,5 @@
 import styles from './LayoutHeader.module.scss'
-import logo from './logo-rpl.png'
+import logo from '../../../shared/images/logo-rpl.png'
 
 export const LayoutHeader = () => {
     return (

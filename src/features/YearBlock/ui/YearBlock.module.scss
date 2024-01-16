@@ -1,0 +1,22 @@
+.YearBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 100px;
+  width: 100%;
+  font-size: 80px;
+  color: white;
+  background: no-repeat center/100% rgba(#282828, 0.4);
+  transition: 0.5s;
+  background-blend-mode: overlay;
+
+  &:hover {
+    background-color: rgba(#282828, 0.8);
+    background-blend-mode: overlay;
+    transition: 0.5s;
+    --mask: rgba(0,0,0, 0);
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+  }
+}
