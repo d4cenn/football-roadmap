@@ -12,6 +12,7 @@
   background-blend-mode: overlay;
 
   &:hover {
+    cursor: pointer;
     min-height: calc(100vh - 200px);
     background-color: rgba(#282828, 0.8);
     background-blend-mode: overlay;
