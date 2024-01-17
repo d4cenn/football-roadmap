@@ -1,4 +1,4 @@
-import {YearBlock} from "src/features/YearBlock/ui/YearBlock";
+import {YearBlock} from "src/features/YearBlock";
 import styles from './YearsPage.module.scss'
 import background from 'src/shared/images/background-stadium.jpeg'
 
