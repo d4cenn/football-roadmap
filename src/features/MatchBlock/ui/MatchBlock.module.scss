@@ -1,0 +1,42 @@
+.MatchBlock {
+  position: relative;
+  top: -25%;
+  display: grid;
+  justify-items: center;
+  width: 400px;
+  height: 50%;
+}
+
+.MatchInfo {
+  margin-top: 25px;
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  border-radius: 1rem;
+}
+
+.VertLine {
+  width: 3px;
+  height: 100px;
+  background-color: black;
+}
+
+.HorizLine::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 13px;
+  left: 0;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+}
+
+//.MatchBlock::before {
+//  content: "";
+//  position: absolute;
+//  top: calc(100% - 12px);
+//  width: 400px;
+//  height: 3px;
+//  background-color: black;
+//}

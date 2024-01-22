@@ -1,0 +1,21 @@
+.EndpointLayout {
+  width: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EndpointCircle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.EndpointCircleSmall {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 10px solid black;
+}
