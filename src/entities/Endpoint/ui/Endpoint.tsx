@@ -1,15 +1,15 @@
 import styles from "./Endpoint.module.scss";
-import {FC} from "react";
+import React, {FC} from "react";
 
 interface EndpointPropsType {
     label: string
-    size?: 'small' | 'medium'
+    style?: React.CSSProperties
 }
 
-export const Endpoint: FC<EndpointPropsType> = ({ label, size = 'medium' }) => {
+export const Endpoint: FC<EndpointPropsType> = ({ label, style}) => {
     return (
-        <div className={styles.EndpointLayout}>
-            <div className={size === 'medium' ? styles.EndpointCircle : styles.EndpointCircleSmall}></div>
+        <div className={styles.EndpointLayout} style={style}>
+            <div className={styles.EndpointCircle}></div>
             {label}
         </div>
     )

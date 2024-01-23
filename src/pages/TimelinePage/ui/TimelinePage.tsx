@@ -8,9 +8,16 @@ export const TimelinePage: FC = () => {
     const { year } = useParams()
     return (
         <div className={styles.TimelineLayout}>
-            <Endpoint label={`01 Jan ${year}`} />
+            <div className={styles.TimelineScroll}>
+            <Endpoint style={{ paddingLeft: '200px' }} label={`01 Jan ${year}`} />
             <MatchBlock />
-            <Endpoint label={`31 Dec ${year}`} />
+            <MatchBlock />
+            <MatchBlock />
+            <MatchBlock />
+            <MatchBlock />
+            <MatchBlock />
+            <Endpoint style={{ paddingRight: '200px' }} label={`31 Dec ${year}`} />
+            </div>
         </div>
     )
 }

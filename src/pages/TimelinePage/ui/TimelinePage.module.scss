@@ -1,6 +1,24 @@
 .TimelineLayout {
+  position: relative;
+  margin-top: 13px;
   height: calc(100% - 100px);
-  padding-left: 200px;
+  overflow: clip;
+}
+
+.TimelineScroll {
+  height: 100%;
   display: flex;
   align-items: center;
+  overflow-x: scroll;
+  justify-content: flex-start;
+}
+
+.TimelineLayout::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 13px);
+  height: 0;
+  border: 2px solid black;
 }
