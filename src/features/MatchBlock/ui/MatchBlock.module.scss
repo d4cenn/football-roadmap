@@ -8,6 +8,9 @@
 }
 
 .MatchInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 300px;
   height: 150px;
   background-color: black;
@@ -27,16 +30,6 @@
   }
 }
 
-//.HorizLine::after {
-//  content: "";
-//  position: absolute;
-//  z-index: -1;
-//  left: 0;
-//  width: 400px;
-//  height: 3px;
-//  background-color: black;
-//}
-
 .MatchBlock:nth-child(odd) {
   top: 76px;
   transform: rotate(180deg);
@@ -55,22 +48,6 @@
   .DatePointLabel {
     transform: rotate(180deg);
   }
-  //top: 137.5px;
-  //
-  //.VertLine {
-  //  position: relative;
-  //  top: -200px;
-  //}
-  //
-  //.HorizLine {
-  //  position: absolute;
-  //  top: -39px;
-  //}
-  //
-  //.HorizLine::after {
-  //  left: -162px;
-  //  top: 13px;
-  //}
 }
 
 .DatePoint {
