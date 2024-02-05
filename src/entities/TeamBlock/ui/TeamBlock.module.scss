@@ -26,7 +26,15 @@
   max-height: 50px;
 }
 
-.TeamScore {
+.HomeTeamScore {
+  display: flex;
+  justify-content: flex-end;
+  width: 10px;
+}
+
+.AwayTeamScore {
+  display: flex;
+  justify-content: flex-start;
   width: 10px;
 }
 

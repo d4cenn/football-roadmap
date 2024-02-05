@@ -17,13 +17,13 @@ export const TeamBlock = ({ isHost = false }: TeamBlockPropsType) => {
                         </div>
                         <div>SPA</div>
                     </div>
-                    <div className={styles.TeamScore}>
+                    <div className={styles.HomeTeamScore}>
                         2
                     </div>
                 </div>
             ) : (
                 <div className={styles.AwayTeam}>
-                    <div className={styles.TeamScore}>
+                    <div className={styles.AwayTeamScore}>
                         1
                     </div>
                     <div className={styles.TeamInfoLayout}>

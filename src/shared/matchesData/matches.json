@@ -1,0 +1,24 @@
+{
+  "2023": {
+    "1": {
+      "id": "1",
+      "name": "Spartak Dinamo",
+      "score": "2 - 1",
+      "homeTeam": "Spartak Moscow",
+      "homeTeamScore": "2",
+      "awayTeam": "Dinamo Moscow",
+      "awayTeamScore": "1",
+      "stadium": "Luzhniki",
+      "attendance": "69443",
+      "date": "13.06.2023",
+      "weather": "Sunny +23",
+      "tournamentName": "Fonbet Russian Cup",
+      "stage": "final",
+      "description": "cool game",
+      "highlightsLink": "https://youtube.com"
+    }
+  },
+  "2024": {
+
+  }
+}
