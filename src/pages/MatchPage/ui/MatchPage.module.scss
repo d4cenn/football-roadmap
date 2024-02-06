@@ -1,11 +1,11 @@
 .MatchPageLayout {
-  background: no-repeat top/100%;
+  background: no-repeat 0 75px/100%;
   width: 100%;
   color: white;
 }
 
 .MatchPageBackground {
-  background: linear-gradient(rgba(#282828, 0.2), black 60%);
+  background: linear-gradient(rgba(#282828, 0), black 60%);
   position: relative;
   top: 0;
   left: 0;
@@ -14,7 +14,7 @@
 }
 
 .MatchPageContent {
-  padding: 100px 0 0 100px;
+  padding: 200px 0 0 100px;
 }
 
 .MatchDateAndConditions {
