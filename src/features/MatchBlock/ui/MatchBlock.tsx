@@ -4,11 +4,13 @@ import {useNavigate} from "react-router-dom";
 
 export const MatchBlock = () => {
     const navigate = useNavigate()
-    return <div className={styles.MatchBlock} onClick={() => navigate('/match')}>
-        <div className={styles.MatchInfo}>
-            <TeamBlock isHost/>
-            —
-            <TeamBlock/>
+    return <div className={styles.MatchBlock}>
+        <div className={styles.MatchInfoLayout}>
+            <div className={styles.MatchInfo} onClick={() => navigate('/match')}>
+                <TeamBlock isHost/>
+                —
+                <TeamBlock/>
+            </div>
         </div>
         <div className={styles.DatePoint}>
             <div className={styles.DatePointCircle} />
