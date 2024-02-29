@@ -1,22 +1,12 @@
 import {YearBlock} from "src/features/YearBlock";
 import styles from './YearsPage.module.scss'
-import background from 'src/shared/images/background-stadium.jpeg'
+import data from 'src/shared/allData/data.json'
 
 export const YearsPage = () => {
-    const years = [
-        {
-            yearValue: 2023,
-            background: background
-        }, {
-            yearValue: 2024,
-            background: background
-        }
-    ]
-
     return (
         <div className={styles.YearsPage}>
-            {years.map((year) => (
-                <YearBlock key={year.yearValue} year={year.yearValue} backgroundUrl={year.background} />
+            {Object.entries(data.backgrounds).map(([year, background]) => (
+                <YearBlock key={year} year={year} backgroundUrl={background} />
             ))}
         </div>
     )

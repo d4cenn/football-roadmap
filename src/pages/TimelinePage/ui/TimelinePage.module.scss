@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   overflow-x: scroll;
+  overflow-y: clip;
   justify-content: flex-start;
 }
 

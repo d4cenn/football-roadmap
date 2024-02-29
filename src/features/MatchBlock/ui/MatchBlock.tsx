@@ -23,7 +23,8 @@ type Match = {
     attendance: number
     date: string
     time: string
-    weather: string
+    weatherConditions: string,
+    temperature: string,
     tournamentName: string
     stage: string
     description: string
