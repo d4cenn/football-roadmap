@@ -1,7 +1,7 @@
 .TimelineLayout {
   position: relative;
-  padding-top: 113px;
-  height: calc(100% - 100px);
+  padding-top: 13px;
+  height: 100%;
   overflow: clip;
 }
 
@@ -19,7 +19,7 @@
   content: "";
   position: absolute;
   width: 100%;
-  top: calc(50% + 43px);
+  top: calc(50% - 7px);
   height: 0;
   border: 2px solid black;
 }
