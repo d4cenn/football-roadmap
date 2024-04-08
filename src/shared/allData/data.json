@@ -409,10 +409,60 @@
         "description": "cool game",
         "highlightsLink": "https://youtube.com"
       }
+    ],
+    "2024": [
+      {
+        "id": 1,
+        "name": "rod-ural-13032024",
+        "score": "1 - 1",
+        "homeTeam": "РОДИНА",
+        "homeTeamShortName": "ROD",
+        "homeTeamLogoUrl": "loko_logo.png",
+        "homeTeamScore": 1,
+        "awayTeam": "СПАРТАК МОСКВА",
+        "awayTeamShortName": "URAL",
+        "awayTeamLogoUrl": "spamsk_logo.png",
+        "awayTeamScore": 1,
+        "stadium": "САПСАН АРЕНА",
+        "city": "Москва",
+        "attendance": 964,
+        "date": "13.03.2024",
+        "time": "18:00",
+        "weatherConditions": "Sunny",
+        "temperature": "+2",
+        "tournamentName": "Фонбет Кубок России 2023/2024",
+        "stage": "1/4 Финала пути регионов",
+        "description": "cool game",
+        "highlightsLink": "https://youtube.com"
+      },
+      {
+        "id": 2,
+        "name": "spartak2-irkutsk-13032024",
+        "score": "1 - 0",
+        "homeTeam": "СПАРТАК-2",
+        "homeTeamShortName": "SPA2",
+        "homeTeamLogoUrl": "spamsk_logo.png",
+        "homeTeamScore": 1,
+        "awayTeam": "ИРКУТСК",
+        "awayTeamShortName": "IRK",
+        "awayTeamLogoUrl": "spamsk_logo.png",
+        "awayTeamScore": 0,
+        "stadium": "СПАРТАК ИМ. Ф.ЧЕРЕНКОВА",
+        "city": "Москва",
+        "attendance": 964,
+        "date": "07.04.2024",
+        "time": "12:00",
+        "weatherConditions": "Sunny",
+        "temperature": "+15",
+        "tournamentName": "ФНЛ-2 Дивизион Б Группа 2 2024",
+        "stage": "Тур 1",
+        "description": "cool game",
+        "highlightsLink": "https://youtube.com"
+      }
     ]
   },
   "backgrounds": {
-    "2023": "background-stadium.jpeg",
-    "2024": "background-stadium.jpeg"
+    "2023": "spartak-sokolniki-stadium.jpeg",
+    "2024": "sapsan-arena.jpeg"
   }
 }

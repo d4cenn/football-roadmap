@@ -1,5 +1,5 @@
 import styles from './MatchPage.module.scss'
-import backgroundUrl from 'src/shared/images/background-stadium.jpeg'
+import backgroundUrl from 'src/shared/images/spartak-sokolniki-stadium.jpeg'
 export const MatchPage = () => {
     return (
         <div className={styles.MatchPageLayout} style={{ backgroundImage: `url(${backgroundUrl})` }}>
