@@ -35,7 +35,7 @@ export const MatchBlock = ({ match }: MatchProps) => {
     const navigate = useNavigate()
     return <div className={styles.MatchBlock}>
         <div className={styles.MatchInfoLayout}>
-            <div className={styles.MatchInfo} onClick={() => navigate('/match')}>
+            <div className={styles.MatchInfo} onClick={() => navigate(`/match/${match.name}`)}>
                 <TeamBlock teamName={match.homeTeamShortName} teamLogoUrl={match.homeTeamLogoUrl} teamScore={match.homeTeamScore} isHost/>
                 —
                 <TeamBlock teamName={match.awayTeamShortName} teamLogoUrl={match.awayTeamLogoUrl} teamScore={match.awayTeamScore}/>
